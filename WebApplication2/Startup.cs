@@ -32,7 +32,7 @@ namespace WebApplication2
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!,from master to");
+                    await context.Response.WriteAsync("Hello World!,day3");
                 });
             });
         }
